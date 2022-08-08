@@ -268,15 +268,19 @@ document.getElementById("formPay").addEventListener("submit",function(e){
                     'Complete los datos?',
                     ' ',
                     'question'
-                  )
+                )
                 e.preventDefault()
             }else{
-            
+            Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'PAGO REALIZADO CON EXITO',
+                    showConfirmButton: false,
+                    timer: 1500
+                    })
             CarritoCompra.splice(0,CarritoCompra.length)
             userActive.carrito.splice(0,userActive.carrito.length)
             localStorage.setItem("userActive*", JSON.stringify(userActive))
-            alert("pago exitoso")
-            
             }
 
 })
