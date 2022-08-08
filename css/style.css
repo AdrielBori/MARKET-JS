@@ -1,0 +1,339 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital,wght@0,400;1,100;1,500&display=swap');
+
+body{
+    position: relative;
+}
+button{
+    background-color: #0033CC;
+    border: 1px solid rgb(124, 125, 205);
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    align-self: center;
+    box-shadow: 3px 3px 3px rgb(118, 118, 118) ;
+    font-family: 'MuseoModerno', cursive;
+
+}
+h4{
+    border-top: black 1 px solid;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#crear{
+    background-color: #0033CC;
+    border: 1px solid rgb(124, 125, 205);
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    align-self: center;
+    box-shadow: 3px 3px 3px rgb(118, 118, 118) ;
+
+
+
+}
+
+.modalalto{
+    background-color: rgba(0, 0, 0, 0.445);
+    transition: ease-in-out 0.7s;
+    width: 100vw;
+    height: 0vh;
+    position:fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modalbajo{
+display: flex;
+height: 100vh;
+transition: ease-in-out 0.7s;
+}
+
+#formNewUser{
+    width: 50vw;
+    height: 60vh;
+    background-color: #FFFF66;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header{
+    width: 100vw;
+    height: 120px;
+    background-color:#0033CC;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 35px;
+    font-family: 'MuseoModerno', cursive;
+
+}
+
+#formInicioUser{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+#inicioSession{
+    background-color: #FFFF66;
+    width: 60%;
+    height: 80%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#formInicioUser{
+    background-color: #FFFF66;
+    width: 25%;
+    height: 80%;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px rgb(55, 64, 131) ;
+}
+input{
+    width: 80%;
+    margin: 5px;
+}
+
+main{
+    background-color:rgb(236, 234, 234);
+    width: 100vw;
+    height: 76vh;
+    display: flex;
+
+}
+#vista_productos{
+    width: 70%;
+    height: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(140px,1fr));
+    grid-auto-rows: minmax(230px,auto);
+    overflow-y: scroll;
+}
+
+
+.tarjeta{
+    width: 140px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border: 1px solid rgb(198, 194, 194);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 3px 3px 3px rgb(118, 118, 118) ;
+}
+.tarjeta_img{
+    width: 100%;
+    height:50% ;
+}
+.descrip{
+width: 100%;
+height:50% ;
+display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-top: 1px solid rgb(198, 194, 194);
+    margin: 1px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+h4{
+text-align: center;
+
+}
+p{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 14px;
+
+}
+
+
+#secUser{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#carrito_compra{
+    width: 100%;
+    height: 80%;
+    background-color:rgb(236, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.botoneraform{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+#cerarmodal{
+    margin-top: 15px;
+    
+}
+#comprar{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+#cerrapago{
+    position: absolute;
+    top:-7px;
+    right:-7px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+
+}
+.inpFormUser{
+    height: 35px;
+    border: 1px ;
+    border-radius: 5px;
+
+}
+.lista{
+    margin: 5px;
+    width: 70%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btnQ{
+    height: 20px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: aliceblue;
+}
+footer{
+    width: 100vw;
+    height: 40px;
+    background-color:#0033CC ;
+
+
+}
+.creditCardForm{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#formPay{
+    width: 45%;
+    height: 60%;
+    background-color: #FFFF66;
+    border:1px black solid;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.form-group{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+select{
+    width: 20%;
+    background-color: white;
+    border:#0033CC solid 2px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+#pay-now{
+    flex-direction: row;
+    justify-content: space-around;
+}
+h6{
+    font-size: 24px;
+    color: black;
+    background-color: none;
+    margin: 0;
+
+}
+
+
+#credit_cards{
+width: 60px;
+height: 20px;
+margin: 25px;
+
+}
+#comprar{
+    background-color: #FFFF66;
+    border-radius: 10px;
+
+}
+#confirm-purchase{
+    align-self: center;
+
+
+}
+#logo{
+   width: 200px;
+}
+h1{
+    color: #FFFF66;
+    text-shadow: 3px 3px 3px rgb(39, 41, 99);
+    margin: 5px;
+}

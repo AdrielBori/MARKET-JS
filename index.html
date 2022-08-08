@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body id="cuerpo">
+    <div class="modalalto" id="modal">
+        <form  id="formNewUser">
+            <h3>CREA TU USUARIO</h3>
+            <br>
+            <input type="text" placeholder="ingresa un nombre" id="nombreNewUser" class="inpFormUser">
+            <input type="password" placeholder="ingresa una contraseña" id="passNewUser" class="inpFormUser"> 
+            <input type="email" placeholder="ingresa un E-mail"  id="emailNewUser" class="inpFormUser">
+            <div class="botoneraform">
+            <input type="submit" value="CREAR" id="crear">
+            <button type="button" id="cerarmodal">cerrar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="creditCardForm" class="modalalto">
+        <form id="formPay"   >
+            <div class="form-group owner">
+                <label for="owner">Titular</label>
+                <input type="text" class="form-control" id="owner" placeholder="titular ej: HOMBER JAY SIMPSON">
+            </div>
+                        <div class="form-group" id="card-number-field">
+                <label for="cardNumber">numero de tarjeta</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="1234 456 7890 0000">
+            </div>
+            <div class="form-group CVV">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv" placeholder="dorso de la tarjera -000-">
+            </div>
+            <div class="form-group CVV">
+                <label for="domicilio">domicilio</label>
+                <input type="text" class="form-control" id="domicilio" placeholder="calle n° localidad">
+            </div>
+            <div class="form-group" id="expiration-date">
+                <label>fecha de vencimiento</label>
+                <select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select>
+                    <option value="16"> 2016</option>
+                    <option value="17"> 2017</option>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+                </select>
+            </div>
+            <div class="form-group"> 
+            <select id="credit_cards">
+                <option value="visa">visa</option>
+                    <option value="mastercard">mastercard</option>
+            </select></div>
+           
+            <div class="form-group" id="pay-now">
+                <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                <h6 id="valoraPagar"></h6>
+                <button id="cerrapago" type="button"> X </button>
+            </div>
+        </form>
+        </div>
+    <header>
+        <div ><img src="files/Imagen1.png" alt="" id="logo"></div>
+        <nav>
+            <h1> MarketProd</h1>
+        </nav>
+        <div id="formInicioUser">
+            
+            
+
+            
+        </div>
+
+
+    </header>
+<main>
+<div id="vista_productos">
+
+
+
+</div>
+<div id="secUser">
+    <div id="carrito_compra"></div>
+    <div id="comprar">
+        <h4>total: <span id="preciototal">0</span> </h4>
+        <button id="pagar">FINALIZAR COMPRA</button>
+    </div>
+
+</div>
+
+
+
+</main>
+<footer>
+
+</footer>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/interfazUser.js"></script> 
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+[  
+    {
+    "nombre":"admin",
+    "email":"admin@gmail.com",
+    "password":"123456",
+    "carrito":[1,2,3,4,5,6]
+}
+]

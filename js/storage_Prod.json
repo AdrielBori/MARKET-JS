@@ -1,0 +1,172 @@
+[
+{
+"id":"000",
+"tipo":"almacen",
+"nombre":"yerba",
+"precio":"340",
+"descrip":"500g",
+"imagen":"https://animalgourmet.com/wp-content/uploads/2017/05/7a4c4b55-58aa-400c-8576-788401261f02.jpg"
+},
+{
+    "id":"001",
+    "tipo":"almacen",
+    "nombre":"azucar",
+    "precio":"340",
+    "descrip":"1kg",
+    "imagen":"https://ashramhogardeemprendedores.com/wp-content/uploads/2020/08/2.jpg"
+},{
+    "id":"002",
+    "tipo":"almacen",
+    "nombre":"galletitas",
+    "precio":"150",
+    "descrip":"500g",
+    "imagen":"https://www.clarin.com/img/2020/09/07/hGBJSRQ0d_340x340__1.jpg"
+},{
+    "id":"003",
+    "tipo":"almacen",
+    "nombre":"sal",
+    "precio":"340",
+    "descrip":"250g",
+    "imagen":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFRUYGBYYGBgYGRgYGBgVGBgYGBgZGRgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISHjEhISs0NDQ0NDQ0NDQ0NDQxNDE0MTE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUGB//EAD0QAAEDAgQDBgQGAAQGAwAAAAEAAhEDIRIxQVEEYXEFEyKBkaFSscHwBhQyQtHhYnKC8TNTkqLS4hUjQ//EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAHhEBAQEBAAIDAQEAAAAAAAAAAAERAhIhA0FRMRP/2gAMAwEAAhEDEQA/AM8K0rvVYqheB7DQiBSu8CrvEVoDkbbrKXwJSjUc7wtm5yC3OWL00v4poMC55IXcXpl7rZwnYDzcjCDrr/S6dL8MsOc23m66c8X8Yvbgf/ZmJI3At6q2cdBwvaRzhe17L7M7sFmbDPhdeOi0nsamTdoy6+y3/mx5vHNeCJB++aKV6iv+Gxmyzh+kjL/KRss/HfhkjxsMSJLMwDqBssdfF+N8/J+uEHqw9K4qi6mYcCEnvQuFmOsutgeoXrIKoVioEVpL1MSzl43UBQaA9XjWdW4IH41O8SmlQlQNxqY0vEhL0Du8U7xIDwrxhQOD0WJIxBQPQaJRtWYVEQrpphpUxJDqqmNA8lWCkCoiFRA9RBjUQeYAUSsSmJdEODlpbTiMWZExy3SeDZJLjcNvG50Hqtz3hl3XeYLv/FWT7Y6v0yhhe4NEkk2C9j2L2CGgPcPF8ln/AA92dg8bmgOccQHwzpdew4YWXo45z3XHrplps0Te7Tn0oNlGBdWQspoqdIz0TAxG1ENZkiLoVBtoSaziBOyDD212Syo0Wz1XzjtXgHUahY7LQ7hfUGcUHNI1GY2Xnfxh2djpYx+tmfMbrh8nEs11+PrLjxbGiM0AfCU1h3TJjNefHfRPfsoKpS3OG6gYUxWhtUo+8WaIQ4yUway/mqFVZBKIv2CmB7qqhqLMKZOaYGQmJp7HSjLVn74DJTvt0xdaMQUa5ZsSY0phpxKtIc9UHlTDWnEoCs7ayB1fZMGzHCB1dZWVCrBTA/8AMqJGFRTBzAETQrDFfdnda1MdTsXhsZJyawYjtJsF0OyeA72rjePC0z12R1QaNKnQYBjeMb3ESfFkOg+i7nZfD4GATM3ndenjlw6rpMYPJa+Gfos2KyU+pC7MOqx82ULYusFOrqtbak2KqGhyJhulQrJRG5qXUZKVTq6JrnoOXXpFjsbfPpsUriOJDmgRmC3k4atOzgupIKxcTwgEmMTDmNlixXz3tLhO7eRfCbtPLZZgBqva9p9mY2Fodibm0nNp5rxPEU3McWuEEZry983mvTx1sZa5ANgk0uLMwWrYByVgDZY1rFseCEqu+BYJ4hVAU1cZ6NcnMLQ+s1oyVwFWAHMK6mAp8SHZKn1RkjawBTAE1Si0aImtGqZ3andpqYU4hV0RmkphTTEDUWIKBUWppgYTWtCGFcJqrLAhyREKsCaBlRFhUTRz2NW3s6jjq02aOexvq4BZIlauy6uCsx2eF4Ppkk/qX+PXVOGx1qr9GPwDYAHCuxTaMtlxnMcGCT4nv7w9Jn5ro8NXtdezl5j6gjJZy6Ub6g3QLQdQMLVzCxYYyWijUmyRK3Uqk5oiFnaia8jmtIJ2aIVMpVOcCkPdfkgc6ojpVjloseOf90+iNs5v9SoKfw5F2rldq9jCqMoeMj9P6XpadG3LWSuHx/b/AAjAWOrF7p//AD8RbH+PIHzWeuZZ7WWy+ng+J4V9N2F7YO+hS3CNF67ju3OGrtLSx4Ojixpkc4d7ry3FUsP6TibvtyK8vfx+Pufx6OO/L+s0hFASS1EFzbHhUuhaUaASSpiVkqsSAcamNG2FbmNQUHq+8QlgjNQMQGHIXOUDVHNQUHqw5UGKYUUeNWHIMKpAyVSpRBkFMo2AggxkQfRJHFGEI4oq4y93xdUPex7f0BoHqE7CYsvO9idoE06jCJMAg/DBz6LqcHxwMtJ8TTB/lernrY4eOXGh9RMp11nfVBUZGhV0x06dUFPw6hclriFro8TurKzjex+6c16yMfKJroWpUxqCgiEjvEutxGEStIc5sdFk7T7bZwzMbyTM4WNu555DTqbJbOMc68XC8Z+J2Riq1HSTvto0cgpq45nb/wCLuI4kw9xZS0pMJDf9ZzeetuST2UA/xPe2mzoXvd/kYLnqYHNef4mm4Q98tBJgQbxp1uPVdj8NdnVOJfgYRTZ+55EkDkNSoPZ8Hx3DshrKT3n4qjwyejGg/NdccDUqttw+EERIDhY83Zrb2Vw/DcKIosxv/dVf4nHz0HILc7tZxOcdFm2EleF43sWpTPja4DQkWWR3DayvoVbjsTSx/iad14/tFgpuLf2G4P0XDviT3Hfjq31XM/LGVbuHvmo5+yukHOMBcnQt9IhQUDEyjJvcptCoJg5JiaQykYVvpTfJaC0iwyVOIyVVlNAoTTIW5qrAFBkaxyIsctToQucgztYUTgjxSoG7qAWMKstCMFC4IKwhRTAqQedZVlQ1Y1SGMKPAtstnBdoljsQ1BaeYOYXoOGe10Pb+4Z89ivMsanUqzmyGmx0+qvPWJedeoe8hEziSFw6XaxiH577pg7TbqV0nUZx6KlxS0tcDcWXmqfaDDk4Ldw/GjQ+i1KljuU6xButjK0rzfFdo4Gh0YhMHktnA8e14lp6jULU6+mby7ONYuLqkkN+zsETau6y94A/ET0+S1rGOtw1EBseZ5n+Fwu0+zO+rNtMfoabgEZ1HDXDpzjZdrhuJGEumABc7ACSVh7T7U/K8O/iMM1qhDKLDnidZjegHid5qq8n+MuGY+pR4Dh7vZL6r9GYviPxHOOYXqOwezqVJgpsJB1d8R3K8n2bwxptcXOx1HuL6jzm95ufIaBdPh+Lwm7iBlY3vtzQd7tGp3LS+C8aYbyl46he1zYwT45ImMJgBvWLoey6rGUyxrnOEudiMTLiTEDIaJL6sTB8lmzFl1op8a5zSSxzLkNDgQXN0dBGRXN7VfiaORUfUeC5z3tdiMtDZOFoFg4n9yxcTWmAN1y6vqunMJAkqMtebq6jskDXhcHUy2gz3ViY2UYQdUYdGaAmT1UDSDKDGdEpzyTcoHPrDLZA6qdEku5JrG3BOSAbkySi7splYtaTe2m6A8VIsIjVAxtLdG1rY3KUHSACLjVOa9rdVBAwnomjhwEg8TsgPEEoNnhUWDvTuog8qKxOSZ3hVYADbJSOa0ghWKp9YocIQloQKqVClHjHDOCmvPRZXsJTTBHtJmrfRXS7RaD4XOasr+HHmk9yteSY9VwXbdsL/ABNOozWhnEFpxsfLdHCxbycF5Wl4d5W/heLIN+k6HqEnX6l5e/7P7QxsuRjGfPmFyuM7Th9zkYXM4Z4za5zXZwINtxuFzO1KxLnznY7aBdeemLy9v/8AIAtp0wf+I8A/5G+J3r4R/qWP8QcZ33EgTLKALWDTG4eN3pA9V5mhxx71h+FsjqT/AOoR43TO5JJ5m615fSeLuGqEmtUZhOIZEODgSIwmTIGYsFhohzoPl/C20qUg7ah0b/yNFryjPjWuhxRkNBHQZpjeLBFnTeCZttHqkMawEPDRiiCZMnI6mIyyARvqgB80hDsJgN/Q7EDLYMC6lurJiVa/VDRbiJJsBZYXvk2M3+wujTcGti5Psd15++sduYvuBdD+W5oHVnHkrc9w5lctaweDCIBvuqaw7pD3uVYnndXaNZ2kSgLb59VnDXbDzKLBu4eV00Fca5q2Vtz5pdtz6KoGxQAaRmS6UYaABF95Vxy90TLToT5iFdBNqWhQvVNGftZQNP3ZQU0u2UaH6wAmNpO+yiFI9ECsPRRN7oqIPNF4Qh4VuAS2yStosvCouTjThJaJKIHCToqNuZTK2STFkUpzZVmmjwosPNRSO65Kiw7LRAVOcpgDh+JLbOEt9x0VdpOBh7CSIgz7fVU5qIPwi3pmD1CvPWJedY+HreNp5QvQcNSxjl/K83VZhOJvWNPJei7L4kOZAPVb3WXSY5uQ840TcGFz24w9mOzmj9tocQVm4dhnFExkCPM9ExrWEvIxMJyDYJDoAvOlitTqJh1R8S21jIzn+wstaq9sguADmtjC6A5ph0GDvFjsirFsN8ALhMG83gERMae6jOGMgkcwI+aXvITnTeAogDE7PQbBasV9hvCgpm0DUaWvudEb2uucOXw+eQ2suNlvt03CjyUZikRmTEmwMrUzhH5FrsjFpJNjHPRLfSeBFwDDoNoOUwr42JrIQRbX2T2cOSCRp77n1TH0jljBzE5CBEGSjdTLRBJlpgiZjfKyYaQGEg9RP3uoKJ3z5LQaLsLTYB0wZubpbqZE5kDONLSpYaWaXMq+4BTXsggGxIB0tIWjhGSY/dax1PKfJJDWLuc7ARvmpH3C6Ljc4sUiMx8yk1oSw1lg2t0ULeqY1wBUc8FRQONhfe17KYshnzVkN+4UYQgPB/i9iohxD7KiDzBpcvoha2DMLpFh+EKsJH7FpGKoLWS6TM5/hby0/ArDT8AVRz67ORPlKyhvVdh0/APRCQ74PZBySFeE8118BP7PmiAf8PsUVxiOqAzt87Lu4H/D7Imsf8HsQoPOYzt7K675GXsvSfl3H9gH+kJrKLvg/wC1RXi3NJUoCox2JgJG0WK9uyidGa6NP0W2mx5M4f8As1V8sTHl6far3Mw9w4GImQB7rr8DwdWrm0Mk7EkTl5XXfpvLGiG3g/t1nbRaPzBNwNG/ti8X10TaMHZ3Y7B4nOxHXkuwOCYAcMftvYxOpnb6rKysfFLBcCM8xqnCrDv0ugi7jOKIvYWItG61zEtGOEDRiDZkxYgtNj9QLHdKo0WMacPjzxGCHAzlBFrfJU5zQJDecEkznIJG+/0ROeMf6MwbF2cxJI39LLpGKXxL8eBwLriIYY8A8RMDKw6oXcPJD2uuAScXiaQRDWkaZm8I3vOME/5YBiQDYmBa3zTqbYmwgmconaV0nO/1m9Yz0uDBAzgAB2EAS7Ob5wNYTm9mgAta4NBmXOkkQZbAyI5Jhd7WClJ976XVnEZvVbGdiB5nGA4jRpMZTYmNPdU/8JEAlj8Zzh1sR57+y6PAPOGefWQTmuzRerfj5v0z59R4HieznMd4qZaTkCDE3yOosVn/ACpGPIhoDgeUCJjVfS3sa8Q4AjYiVxuJ/DjM6ZLHTJ1B6jb+AsX4fx0nyfrwcy4icokbkWPmr4giJFxpJE9CuzxvY1Rkg3BxEYjHitEOHRcvieBfdxLS2wBJAxGCIje3tzXHrmz6dJ1K5XiJMNkDOCDaJPsrm+VuoWp/CnLA0RqSBmbEjZJqcM/ELtifEAATHIza3VY8WvIt7zzQh5+ytdZhJ/4W0wQBaxIE2QspH/l+rv4KmGs0lWtfdN/5Z/6v/ZRMNcw0efv/AEhFP/FH+oj6JuM/YVl33CoX3c5OPr/ShpH4jPVG5wjbyV4+voqFd04an781baLviPqmF/X0VF/3CCzTd8R9/wCVAXDJzvT+0JeIv8oRNb9woLbUdu71ChqP+I+30VEx/sUOMfY/tAYq1NCmse/4vZKY70/ypjH8x6R9UVpY5/xRF8kT+IfkHn0SC/n849UL6g0M9T/uoNLKzx+72nz+900VHj99+kecQsGPSQfNMa+QZJ2zJtBtfmAtRGz8y/IPHO05n2i+yJ9V4Mh4AnMm150IPNYA29gY1LbkDWAhc4uBAuRJtOQjQdJ84WozW+pxT2t/U2PigGc4tfQ+ypldztYtYgWMmbTleOl1yu8uQSS0A2FukCeS00a0G8AggAche3vnsuvE1jp3KLDmTJ5WTX1FhFaygqW+S7ObS591rpMEj55j7yXLx3F7ldHgR4sAMg6jnvskSurwr4HI5HYi5XZ4apIk+oXBoCXYQRbPnzC6tB9rafYhaZdMOhMa5YW1dPfknh8IG1GAi4Ec1xO0OyGxLBGE4gBYTqfTTouuXpFZ4y5XUslWXHg+NcGOMgSYfBBaQCc46j9OwlYRxjJAvE33yzAXV/E1UWI/mYJw2+c7heZx5HxRed/c2Xl7mXHfn3HSbxLDuLTkYJnKdFTeLbOTj0mT5rmudbM88t9L3y+aI1T7yDAnlcdFzbxv/ON2hUsQqK0GUtQufG8oHPPxD0Q94QLkR5/yrhpvfdfkoahOnz/hK73mFGv5j3UU3vSLR8z6So2qTv8ANAH8wrxc/SU9i8R3+/VMaHnIE9AT7pYPP5pjasCI87j6plNiOLhnKvEdCff5yll2tz81Qcd/l9EymtDHk6omVSPuUtzyRdxPUyqB2ugc6tz+Stj+g5/zCVOVs76W6ibZKEkaR1smU057yCdeYJgq2Oz572naYQUK7hIDhB5A/MIjWJibkZWyQNe7ePS3nAuLe6WQIEQSLkYgJjQC3JUSYsR5W+8kbK5AsBnIdALhnkdArEJqMmf1DS5iYGTv4VsZe36hY5OcLiZAM4RzCMOm0wctMjYn5KAM/VBJwmbxcERaLtsV056xjqaM1IyviMA6GNgn94YAOZjpCTiBMwILbjFIDjciM8rdQET6UnDdtiRkCYgEXMzyuu86lcrMbz4vCP1DLyC1cJXwOgfqgtM2m0zf7sudwvEOiS3fK5EQBPl8091Vgc1zZLSSHOzgk5HyhaR3qBBBiz8yPktjOJkEg3YASDqVxeG4oAgNJOcnWBYdd008YC4RbObETFpEcwFUegZV0GevnsjfXiL5WledZx2xIg3vJBkgfJI4ntoQJBsbxAiLxE9PUKXqQnNr1FfjAC28E/JcXtDtaDha1x3w7Wi5Osn/AKV5/je03Om/6ZBN7giTY3GgzsXLk8RxWQDrAmLult5JxZGTEdFz6+T8b54bOL4sk4zDmeLwiQIIMEnU3vqI0Kwl8S2bZxpIB8xqgc+7i6RmLGfHaRG0pT3kWnI9fcZhefq67Q7HeDB9APeIVB05hKfUcYvlYTtn9UJed7actbIp8j4W+yizYjurWRnxtGioPadPZWotMrJbsPdQYDp81FEFgj7lWQFFEFS3n6lXDdz6lRRFUY5+qING59SoooDawbu9VA1urnKKIDLRGZ81MXMqKKgS8bu9v4Rh3PLdRRBBAuHEZHW8ZSjcSRmfKyiiIupVvIPlHtMoTUGUkbnrE+WfNRRBR4nK5sMIm8Nm0A5f2j/NYnXEE6gA2tkD5qKLUSnUuMwwNsWE/uOIA56DK0qhxuGWxYCw0G9sj/Sii3tTDHcY6C1rchiItkRI12MG6p3amGHtMHDncwQdN5uMtFFFdpJCTxTpGkiQTcmcib9M9ys/5z9UADFm3eHA/PnooosVYj+KLiSWiQcRLfCMwBbr80l3EjbdRRZUPfaxY89ET6hBwuufLa11FEA95orLvvdRRQD33JRRRB//2Q=="
+},{
+    "id":"004",
+    "tipo":"almacen",
+    "nombre":"harina",
+    "precio":"150",
+    "descrip":"1kg",
+    "imagen":"https://st2.depositphotos.com/1000348/6439/i/950/depositphotos_64399139-stock-photo-flour-and-wheat-ears.jpg"
+},{
+    "id":"005",
+    "tipo":"verduleria",
+    "nombre":"papa",
+    "precio":"90",
+    "descrip":"1kg",
+    "imagen":"https://www.clarin.com/img/2014/09/22/SJelSL42Qg_1256x620.jpg"
+},{
+    "id":"006",
+    "tipo":"verduleria",
+    "nombre":"tomate",
+    "precio":"120",
+    "descrip":"1kg",
+    "imagen":"https://www.cucinare.tv/wp-content/uploads/2019/05/Tomates.jpg"
+},{
+    "id":"007",
+    "tipo":"verduleria",
+    "nombre":"cebolla",
+    "precio":"80",
+    "descrip":"1kg",
+    "imagen":"https://static.tuasaude.com/media/article/xf/rh/cebolla_49324.jpg"
+},{
+    "id":"008",
+    "tipo":"verduleria",
+    "nombre":"zapallo",
+    "precio":"80",
+    "descrip":"1kg",
+    "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pumpkins_and_Squash_Display.JPG/1200px-Pumpkins_and_Squash_Display.JPG"
+},{
+    "id":"009",
+    "tipo":"verduleria",
+    "nombre":"manzana",
+    "precio":"200",
+    "descrip":"1kg",
+    "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-UWbZBPgcyO9mc-T02S3rNMAKhjdoTxnNJIkEALiuk_tQHIonKialqbzkPn83cTYlbRk&usqp=CAU"
+},{
+    "id":"010",
+    "tipo":"verduleria",
+    "nombre":"banana",
+    "precio":"220",
+    "descrip":"1kg",
+    "imagen":"https://www.lamansiondelasideas.com/wp-content/uploads/2022/01/beneficios-consumo-banana-dieta.jpg"
+},{
+    "id":"011",
+    "tipo":"lacteos",
+    "nombre":"leche",
+    "precio":"200",
+    "descrip":"1lts",
+    "imagen":"https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/articulos/tipos-leche.jpg"
+},{
+    "id":"012",
+    "tipo":"lacteos",
+    "nombre":"manteca",
+    "precio":"200",
+    "descrip":"100g",
+    "imagen":"https://www.cucinare.tv/wp-content/uploads/2020/01/Manteca-1.jpg"
+},{
+    "id":"013",
+    "tipo":"lacteos",
+    "nombre":"yogurt",
+    "precio":"250",
+    "descrip":"1lts",
+    "imagen":"https://images.aws.nestle.recipes/resized/858305dbec79c77b709a9c8f1e207231_gettyimages-1159838603_1200_600.jpg"
+},{
+    "id":"014",
+    "tipo":"lacteos",
+    "nombre":"queso",
+    "precio":"150",
+    "descrip":"250g",
+    "imagen":"https://imagenes.elpais.com/resizer/1Uytz1DQmfuwOashmqxhcIeO-5I=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/7EELV2V4NYSZYS37RTQQNS37JQ.jpg"
+},{
+    "id":"015",
+    "tipo":"lacteos",
+    "nombre":"crema",
+    "precio":"280",
+    "descrip":"550cc",
+    "imagen":"https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/picture/565/como_hacer_crema_chantilly.jpg"
+},{
+    "id":"016",
+    "tipo":"lacteos",
+    "nombre":"helado",
+    "precio":"340",
+    "descrip":"1lts",
+    "imagen":"https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2016/07/helado.jpg"
+},{
+    "id":"017",
+    "tipo":"carniseria",
+    "nombre":"asado",
+    "precio":"1500",
+    "descrip":"1kg",
+    "imagen":"https://comidasparaguayas.com/wp-content/uploads/2020/04/asado-a-la-parrilla_700x466.jpg"
+},{
+    "id":"018",
+    "tipo":"carniseria",
+    "nombre":"chorizo",
+    "precio":"500",
+    "descrip":"1kg",
+    "imagen":"https://ahumados.shop/wp-content/uploads/2020/11/chorizo-sausage.jpg"
+},{
+    "id":"019",
+    "tipo":"carniseria",
+    "nombre":"vacio",
+    "precio":"1200",
+    "descrip":"1kg",
+    "imagen":"https://locosxlaparrilla.com/wp-content/uploads/2015/02/Receta-recetas-locos-x-la-parrilla-locosxlaparrilla-vacio-vacio-miel-soja-3.jpg"
+},{
+    "id":"020",
+    "tipo":"carniseria",
+    "nombre":"chinchu",
+    "precio":"340",
+    "descrip":"1kg",
+    "imagen":"https://www.paulinacocina.net/wp-content/uploads/2022/06/receta-de-chinchulines-a-la-parrilla.jpg"
+},{
+    "id":"021",
+    "tipo":"almacen",
+    "nombre":"mermelada",
+    "precio":"340",
+    "descrip":"500g",
+    "imagen":"https://ashramhogardeemprendedores.com/wp-content/uploads/2020/08/2.jpg"
+},{
+    "id":"022",
+    "tipo":"almacen",
+    "nombre":"pan",
+    "precio":"340",
+    "descrip":"1kg",
+    "imagen":"https://www.lesaffre.es/wp-content/uploads/2017/04/pan-corteza-blanda.jpg"
+},{
+    "id":"023",
+    "tipo":"almacen",
+    "nombre":"atun",
+    "precio":"340",
+    "descrip":"250g",
+    "imagen":"https://dam.cocinafacil.com.mx/wp-content/uploads/2018/07/beneficios-del-atun-1.jpg"
+}
+]
