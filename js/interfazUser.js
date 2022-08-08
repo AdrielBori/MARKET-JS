@@ -12,8 +12,8 @@ const porcionCode=`
     <input type="email" id="emailUsActive" placeholder="Ingrese email de usuario">
     <input type="password" id="passwUsActive" placeholder="Ingrese Contraseña">
     <div>
-    <button type="submit">Inicie Session </button>
-    <button type="button" id="nuevoUser">crear Usuario </button>
+    <button type="submit">Inicie Sesion </button>
+    <button type="button" id="nuevoUser">Crear Usuario </button>
     </div>
 </form>`
 class UserNew {
@@ -213,7 +213,7 @@ document.getElementById("formInicioUser").addEventListener("submit",function(e){
                         icon: 'error',
                         title: 'Oops...',
                         text: 'usuario no encontrado!',
-                        footer: '<a href="">crear un usuario?</a>'
+                        footer: 'crear un usuario?'
                       }): console.log("ok")
                     }
                     e.preventDefault()
@@ -253,7 +253,7 @@ document.getElementById("pagar").addEventListener("click",(e)=>{
     if(userActive!==null){
         document.getElementById("creditCardForm").classList.add("modalbajo")
     }else{
-        Swal.fire('Inicie Session primero')
+        Swal.fire('Inicie Sesion primero')
 
     }
     
