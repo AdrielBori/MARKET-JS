@@ -221,23 +221,22 @@ document.getElementById("formInicioUser").addEventListener("submit",function(e){
 
 document.getElementById("vista_productos").addEventListener("click",function(e){
         let prod=e.target
-        if(prod.name==="agregar" &&userActive!==null){
+        if(prod.name==="agregar" && userActive!==null){
             let agarrar=parseInt(prod.id) 
             pintarProductos(DatosProductos[agarrar])
             CarritoCompra.push(DatosProductos[agarrar])
             userActive.carrito.push(DatosProductos[agarrar])
             localStorage.setItem("userActive*", JSON.stringify(userActive))
             Toastify({
-
                 text: "producto agregado",
-                
                 duration: 2000,
                 style: {
                     background: "linear-gradient(to right, #0fc70f, #96c93d)",
-                  },
+                    },
                 }).showToast();
         }else{
-            Swal.fire('Inicie Session primero')
+            userActive===null ? Swal.fire('Inicie Session primero'): console.log()
+            
         }
         sumarTotal();
 })
@@ -262,7 +261,9 @@ document.getElementById("formPay").addEventListener("submit",function(e){
     let cardNumber=document.getElementById("cardNumber").value
     let cvv=document.getElementById("cvv").value
     let domicilio=document.getElementById("domicilio").value
+   
             /*validacion de inicio*/
+            let validar=false
             if(owner==="" || cardNumber==="" || cvv==="" || domicilio===""){
                 Swal.fire(
                     'Complete los datos?',
@@ -271,16 +272,23 @@ document.getElementById("formPay").addEventListener("submit",function(e){
                 )
                 e.preventDefault()
             }else{
-            Swal.fire({
-                    position: 'top-end',
+                Swal.fire({
+                    position: 'center',
                     icon: 'success',
-                    title: 'PAGO REALIZADO CON EXITO',
-                    showConfirmButton: false,
+                    title: 'pago realizado con exito',
                     timer: 1500
-                    })
-            CarritoCompra.splice(0,CarritoCompra.length)
-            userActive.carrito.splice(0,userActive.carrito.length)
-            localStorage.setItem("userActive*", JSON.stringify(userActive))
-            }
+                })
+                e.preventDefault()
+                CarritoCompra.splice(0,CarritoCompra.length)
+                userActive.carrito.splice(0,userActive.carrito.length)
+                localStorage.setItem("userActive*", JSON.stringify(userActive))
+                setInterval(() => {
+                    location.reload()
+                }, 1500);
+                
 
+            }
+            
+                
+            
 })
