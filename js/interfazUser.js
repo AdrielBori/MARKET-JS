@@ -250,7 +250,13 @@ document.getElementById("carrito_compra").addEventListener("click",function(e){
 
 
 document.getElementById("pagar").addEventListener("click",(e)=>{
-    document.getElementById("creditCardForm").classList.add("modalbajo")
+    if(userActive!==null){
+        document.getElementById("creditCardForm").classList.add("modalbajo")
+    }else{
+        Swal.fire('Inicie Session primero')
+
+    }
+    
 })
 document.getElementById("cerrapago").addEventListener("click",(e)=>{
     document.getElementById("creditCardForm").classList.remove("modalbajo")
